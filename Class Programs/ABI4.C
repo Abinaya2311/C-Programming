@@ -3,7 +3,7 @@
 int main()
 {
 clrscr();
-int a,b;
+int a,b,i;
 printf("Enter the current year of anniversary: ");
 scanf("%d", &a);
 if(a%4==0)
@@ -15,6 +15,15 @@ printf("The next leap year your anniversary falls is on %d",b);
 else
 {
 printf("It is not a leap year");
+for(i=a;i<=a;i--)
+{
+if(i%4==0)
+{
+b=i;
+printf("The previous leap year fell on %d",b);
+break;
+}
+}
 }
 getch();
 return 0;
