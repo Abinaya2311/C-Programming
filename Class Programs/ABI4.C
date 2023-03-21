@@ -14,7 +14,7 @@ printf("The next leap year your anniversary falls is on %d",b);
 }
 else
 {
-printf("It is not a leap year");
+printf("It is not a leap year\n");
 for(i=a;i<=a;i--)
 {
 if(i%4==0)
