@@ -13,7 +13,7 @@ int main()
 		scanf("%d", &guess);
 		if(guess>number)
 		{
-			printf("you guessed to high\n");
+			printf("you guessed too high\n");
 		}
 		else if(guess<number)
 		{
